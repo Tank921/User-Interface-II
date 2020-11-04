@@ -192,3 +192,26 @@ footer a{
     font-size:1.5rem;
 	transition: .3s;
 }
+
+/******Mobile Styles********/
+
+@media(max-width:800px){
+
+	header{
+        display:flex;
+        justify-content:space-around;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 180px;
+        padding: 10px;
+		margin-bottom: 10px;
+		background-color: white;
+	}
+
+	nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+}
